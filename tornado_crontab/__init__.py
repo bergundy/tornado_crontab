@@ -19,6 +19,7 @@ class CronTab(object):
     def add_event(self, *args, **kwargs):
         event = Event(self.next_event_id(), *args, **kwargs)
         self.events[event.id] = event
+        return event.id
 
     def del_event(self, id):
         if id in self.events:
