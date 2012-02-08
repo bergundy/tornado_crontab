@@ -1,0 +1,5 @@
+This projects has no tests, it seems to be working fine.
+
+If you don't mind installing an external module,
+I'd suggest you use this APScheduler based solution:
+http://tornadogists.org/1770500/
